@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fill Form</title>
+    <link rel="stylesheet" href="theme.css">
+</head>
+<body>
+    <div class="head__form">
+        <h1>Fill Form</h1>
+        <div>
+            <nav class="nav">
+                <a href="10905415.html">Home</a>
+                <a href="school.html" target="_blank"> Educational Information </a>
+                <a href="form.html" target="_blank">Go to Form</a>
+        </nav>
+     </div>
+        <div>
+            <form action="#">
+                <fieldset>
+                    <legend>Description:</legend>
+                    <input type="text" name="firstName" placeholder="First Name"><br>
+                    <input type="text" name="lastName" placeholder="Last Name"><br>
+                    <input type="text" name="age" placeholder="Age"><br>
+                    <input type="text" name="phoneNumber" placeholder="Phone Number"><br>
+                        <legend>Select Your Gender</legend>
+                        <select name="gender" id="gender">
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                        </select>
+                        <div class="id">
+                            <legend>Identification Information</legend>
+                            <select name="identification" id="identification">
+                                <option value="nationId">National Identity</option>
+                                <option value="NHIS">NHIS</option>
+                                <option value="StudentID">Student ID</option>
+                                <option value="DriverID">Driver ID</option>
+                                <input type="text" name="ID number" placeholder="ID Number">
+                            </select>
+                        </div>
+                    <legend>Optional Info</legend>
+                    <textarea name="add" style="width:200px; height:150px;"></textarea><br>
+                    <button>Submit Form</button>
+                </fieldset>
+            </form>
+        </div>  
+    </div>
+</body>
+</html>
